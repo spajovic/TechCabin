@@ -1,0 +1,1171 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+}
+@keyframes zoom {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+#vrh {
+  width: 100%;
+  height: 40px;
+  background-color: black;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  letter-spacing: 1.1px;
+}
+
+#header_menu header {
+  width: 100%;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: white;
+}
+
+#header_menu header #header_naslov {
+  width: 20%;
+  height: inherit;
+}
+
+#header_menu header #header_naslov h1 {
+  font-size: 36px;
+  font-weight: bold;
+  padding-left: 10%;
+  padding-top: 2%;
+}
+
+#header_menu header #header_naslov h1 a {
+  text-decoration: none;
+  color: black;
+}
+
+#header_menu header #header_popust {
+  width: 20%;
+  height: inherit;
+  font-size: 16px;
+  background-color: #751fff;
+  color: white;
+  font-weight: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.5px;
+}
+
+#header_menu nav {
+  width: 100%;
+  height: 50px;
+  background-color: #e9e6e6;
+}
+
+#header_menu nav ul {
+  width: 15%;
+  height: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  padding-left: 2%;
+}
+
+#header_menu nav ul li a {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 0.2px;
+}
+
+#drzac {
+  width: 100%;
+  height: auto;
+  background-color: #e9e6e6;
+}
+
+#drzac #centriraj_sadrzaj {
+  width: 96.5%;
+  height: inherit;
+  margin: 0px auto;
+  background-color: #e9e6e6;
+  margin-bottom: 20px;
+}
+
+#drzac #centriraj_sadrzaj #title_content {
+  width: 100%;
+  background-color: white;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  background-image: url(../img/ajde.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+#drzac #centriraj_sadrzaj #title_content #text_title {
+  height: 70%;
+  width: 30%;
+  padding-left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-left: 2%;
+}
+
+#drzac #centriraj_sadrzaj #title_content #text_title h1 {
+  font-size: 40px;
+}
+
+#drzac #centriraj_sadrzaj #title_content #text_title p {
+  margin-top: 30px;
+  font-weight: normal;
+}
+
+#drzac #centriraj_sadrzaj #title_content #text_title a {
+  text-decoration: none;
+  color: white;
+  padding: 7px;
+  width: 25%;
+  height: 20px;
+  border-radius: 20px;
+  background-color: #751fff;
+  margin-top: 20px;
+  text-align: center;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+#drzac #centriraj_sadrzaj #title_content #text_title a:hover {
+  color: white;
+  background-color: black;
+}
+
+#drzac #centriraj_sadrzaj #dva_diva {
+  width: 100%;
+  margin-top: 2%;
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#drzac #centriraj_sadrzaj #dva_diva .dva {
+  width: 49%;
+  height: inherit;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#drzac #centriraj_sadrzaj #dva_diva .dva .info {
+  width: 60%;
+  margin-left: 10%;
+}
+
+#drzac #centriraj_sadrzaj #dva_diva .dva .info p {
+  font-size: 16px;
+  color: white;
+}
+
+#drzac #centriraj_sadrzaj #dva_diva .dva .info h3 {
+  font-size: 30px;
+  margin-top: 2%;
+  margin-bottom: 6%;
+  color: white;
+}
+
+#drzac #centriraj_sadrzaj #dva_diva .dva .info a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 30px 5px 30px;
+  font-size: 16px;
+  border-radius: 20px;
+  background-color: black;
+  -webkit-transition: color 1s;
+  transition: color 1s;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+#drzac #centriraj_sadrzaj #dva_diva .dva .info a:hover {
+  color: black;
+  background-color: white;
+}
+
+#drzac #centriraj_sadrzaj #dva_diva #prvi {
+  background-image: url(../img/nesto.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#drzac #centriraj_sadrzaj #dva_diva #drugi {
+  background-image: url(../img/nesto3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#drzac #centriraj_sadrzaj #title_best {
+  width: 100%;
+  background-color: white;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2%;
+}
+
+#drzac #centriraj_sadrzaj #title_best h2 {
+  font-size: 30px;
+}
+
+#drzac #centriraj_sadrzaj #products {
+  width: 100%;
+  background-color: inherit;
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#drzac #centriraj_sadrzaj #products .product {
+  width: 15%;
+  height: 97%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#drzac #centriraj_sadrzaj #products .product .product_img {
+  width: 100%;
+  height: 80%;
+  background-color: lightgray;
+  overflow: hidden;
+}
+
+#drzac #centriraj_sadrzaj #products .product .product_img img {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: -webkit-transform 0.7s;
+  transition: -webkit-transform 0.7s;
+  transition: transform 0.7s;
+  transition: transform 0.7s, -webkit-transform 0.7s;
+}
+
+#drzac #centriraj_sadrzaj #products .product .product_img img:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+#drzac #centriraj_sadrzaj #products .product p {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 1%;
+}
+
+#drzac #centriraj_sadrzaj #products .product small {
+  font-size: 16px;
+  margin-top: 3%;
+  text-align: center;
+  font-weight: bold;
+}
+
+#drzac #centriraj_sadrzaj #products .product button {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+  color: white;
+  background-color: black;
+  margin-top: 3%;
+  border: none;
+  cursor: pointer;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#drzac #centriraj_sadrzaj #products .product .kupi_proiz {
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+#drzac #centriraj_sadrzaj #products .product .kupi_proiz:hover {
+  background-color: #4e4e4e;
+}
+
+#drzac #centriraj_sadrzaj #products .product button:focus {
+  outline: none;
+}
+
+#drzac #centriraj_sadrzaj #email_forma {
+  width: 100%;
+  height: auto;
+  background-color: #751fff;
+  margin-top: 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 1%;
+}
+
+#drzac #centriraj_sadrzaj #email_forma h4 {
+  color: white;
+  font-size: 28px;
+  margin-bottom: 0.5%;
+  margin-top: 1%;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+#drzac #centriraj_sadrzaj #email_forma p {
+  color: white;
+  margin-bottom: 1%;
+}
+
+#drzac #centriraj_sadrzaj #email_forma label {
+  color: white;
+  margin-right: 30%;
+  letter-spacing: 0.3px;
+  margin-bottom: 0.2%;
+}
+
+#drzac #centriraj_sadrzaj #email_forma #mail {
+  width: 38%;
+  border: none;
+  height: 30px;
+  font-family: inherit;
+  margin-bottom: 0.6%;
+  padding-left: 15px;
+  font-size: 16px;
+  color: black;
+  border-radius: 20px;
+}
+
+#drzac #centriraj_sadrzaj #email_forma #mail:focus {
+  outline: none;
+}
+
+#drzac #centriraj_sadrzaj #email_forma button {
+  border: none;
+  background-color: black;
+  border-radius: 20px;
+  color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+  height: 30px;
+  letter-spacing: 1px;
+  font-family: 'Raleway', sans-serif;
+  cursor: pointer;
+  margin-top: 0.5%;
+  margin-right: 30.5%;
+  -webkit-transition: background-color 0.6s;
+  transition: background-color 0.6s;
+}
+
+#drzac #centriraj_sadrzaj #email_forma button:hover {
+  background-color: #9b6de6;
+}
+
+#drzac #centriraj_sadrzaj #email_forma button:focus {
+  outline: none;
+}
+
+#drzac #centriraj_sadrzaj .touch {
+  width: 100%;
+  color: white;
+  background-color: black;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#drzac #centriraj_sadrzaj .touch h1 {
+  font-size: 40px;
+  letter-spacing: 1px;
+}
+
+#drzac #centriraj_sadrzaj .touch1 {
+  color: black;
+  background-color: white;
+}
+
+#drzac #centriraj_sadrzaj #contact_form {
+  background-color: white;
+  width: 100%;
+  height: 800px;
+  margin-bottom: 60px;
+}
+
+#drzac #centriraj_sadrzaj #contact_form h3 {
+  text-align: center;
+  padding-top: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+#drzac #centriraj_sadrzaj #contact_form #forma_drzac {
+  width: 50%;
+  margin: 0px auto;
+  height: auto;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#drzac #centriraj_sadrzaj #contact_form #forma_drzac #gore {
+  width: 100%;
+  height: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#drzac #centriraj_sadrzaj #contact_form #forma_drzac #gore .input_forma {
+  width: 45%;
+}
+
+#drzac #centriraj_sadrzaj #contact_form #forma_drzac #gore .input_forma .formica {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+#drzac #centriraj_sadrzaj #contact_form #forma_drzac #gore .input_forma .formica label {
+  margin-top: 5%;
+}
+
+#drzac #centriraj_sadrzaj #contact_form #forma_drzac #gore .input_forma .formica input {
+  width: 100%;
+  height: 50px;
+  margin-top: 3%;
+  padding-left: 15px;
+  font-family: 'Raleway', sans-serif;
+  background-color: #e9e6e6;
+  border: none;
+  color: black;
+  font-size: 18px;
+}
+
+#drzac #centriraj_sadrzaj #contact_form #forma_drzac #gore .input_forma .formica input:focus {
+  outline: none;
+  border: 0.2px solid black;
+}
+
+#drzac #centriraj_sadrzaj #contact_form #forma_drzac #dole {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#drzac #centriraj_sadrzaj #contact_form #forma_drzac #dole label {
+  margin-top: 2%;
+}
+
+#drzac #centriraj_sadrzaj #contact_form #forma_drzac #dole textarea {
+  margin-top: 1%;
+  width: 100%;
+  height: 160px;
+  padding-left: 15px;
+  padding-top: 5px;
+  font-family: 'Raleway', sans-serif;
+  background-color: #e9e6e6;
+  border: none;
+  font-size: 18px;
+}
+
+#drzac #centriraj_sadrzaj #contact_form #forma_drzac #dole textarea:focus {
+  outline: none;
+  border: 0.2px solid black;
+}
+
+#drzac #centriraj_sadrzaj #contact_form #ispod_forme {
+  width: 50%;
+  margin: 40px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#drzac #centriraj_sadrzaj #contact_form #ispod_forme #cxbox_label {
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#drzac #centriraj_sadrzaj #contact_form #ispod_forme #cxbox_label #cxbox {
+  margin-left: 6px;
+}
+
+#drzac #centriraj_sadrzaj #contact_form #ispod_forme button {
+  width: 25%;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #751fff;
+  color: white;
+  border: none;
+  font-size: 16px;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+#drzac #centriraj_sadrzaj #contact_form #ispod_forme button:focus {
+  outline: none;
+}
+
+#drzac #centriraj_sadrzaj #contact_form #ispod_forme button:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+#drzac #centriraj_sadrzaj #pitanja_odgovori {
+  width: 100%;
+  background-color: white;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+
+#drzac #centriraj_sadrzaj #pitanja_odgovori .drzac_odgovora {
+  width: 60%;
+  background-color: #e9e6e6;
+  margin-top: 2%;
+}
+
+#drzac #centriraj_sadrzaj #pitanja_odgovori .drzac_odgovora .pitanje_odg {
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+}
+
+#drzac #centriraj_sadrzaj #pitanja_odgovori .drzac_odgovora .pitanje_odg h2 {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+#drzac #centriraj_sadrzaj #pitanja_odgovori .drzac_odgovora .pitanje_odg h2 a {
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+  border-bottom: 0.3px solid #751fff;
+  padding: 8px;
+  font-weight: 1000;
+  -webkit-transition: color 0.5s, font-weight 0.5s, background-color 0.5s;
+  transition: color 0.5s, font-weight 0.5s, background-color 0.5s;
+}
+
+#drzac #centriraj_sadrzaj #pitanja_odgovori .drzac_odgovora .pitanje_odg h2 a:hover {
+  background-color: #751fff;
+  color: white;
+  font-weight: normal;
+}
+
+#drzac #centriraj_sadrzaj #pitanja_odgovori .drzac_odgovora .pitanje_odg .odgovor {
+  background-color: white;
+  width: 100%;
+  padding-top: 3%;
+}
+
+#drzac #centriraj_sadrzaj #pitanja_odgovori .drzac_odgovora .pitanje_odg .odgovor p {
+  text-indent: 40px;
+  font-size: 18px;
+}
+
+#drzac #centriraj_sadrzaj #proizvodi {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#drzac #centriraj_sadrzaj #proizvodi .proiz {
+  width: 21%;
+  height: auto;
+  background-color: #e9e6e6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-top: 2%;
+  overflow: hidden;
+}
+
+#drzac #centriraj_sadrzaj #proizvodi .proiz .poriz_img {
+  width: 100%;
+  height: 350px;
+  background-color: black;
+  overflow: hidden;
+}
+
+#drzac #centriraj_sadrzaj #proizvodi .proiz .poriz_img img {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: -webkit-transform 0.7s;
+  transition: -webkit-transform 0.7s;
+  transition: transform 0.7s;
+  transition: transform 0.7s, -webkit-transform 0.7s;
+}
+
+#drzac #centriraj_sadrzaj #proizvodi .proiz .poriz_img img:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+#drzac #centriraj_sadrzaj #proizvodi .proiz p {
+  margin-top: 2px;
+  font-size: 18px;
+}
+
+#drzac #centriraj_sadrzaj #proizvodi .proiz .cena {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+#drzac #centriraj_sadrzaj #proizvodi .proiz .cena small {
+  padding-left: 10px;
+}
+
+#drzac #centriraj_sadrzaj #proizvodi .proiz button {
+  margin-top: 10px;
+  width: 100%;
+  color: white;
+  background-color: black;
+  border: none;
+  height: 45px;
+  font-size: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  cursor: pointer;
+}
+
+#drzac #centriraj_sadrzaj #proizvodi .proiz .kupi_proiz {
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+#drzac #centriraj_sadrzaj #proizvodi .proiz .kupi_proiz:hover {
+  background-color: #4e4e4e;
+}
+
+#drzac footer {
+  width: 100%;
+  height: auto;
+  padding-top: 4%;
+  background-color: white;
+}
+
+#drzac footer #futer_info {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-bottom: 2%;
+}
+
+#drzac footer #futer_info .info_fut {
+  width: 15%;
+  text-align: left;
+}
+
+#drzac footer #futer_info .info_fut h2 {
+  font-size: 22px;
+  letter-spacing: 0.5px;
+  margin-bottom: 10%;
+}
+
+#drzac footer #futer_info .info_fut ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  list-style: none;
+  text-align: left;
+}
+
+#drzac footer #futer_info .info_fut ul li {
+  margin-top: 6%;
+}
+
+#drzac footer #autor_prava {
+  width: 100%;
+  text-align: center;
+  background-color: #e9e6e6;
+  padding-top: 0.8%;
+  padding-bottom: 0.8%;
+}
+
+#drzac footer #autor_prava h5 {
+  font-size: 16px;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 1700px) {
+  #header_menu nav ul {
+    width: 20%;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  #drzac #centriraj_sadrzaj #proizvodi .proiz {
+    width: 22%;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  #header_menu nav ul {
+    width: 30%;
+  }
+  #drzac #centriraj_sadrzaj #products .product {
+    width: 17%;
+  }
+  #drzac #centriraj_sadrzaj #email_forma button {
+    margin-right: 28%;
+  }
+  #drzac #centriraj_sadrzaj #proizvodi .proiz {
+    width: 24%;
+  }
+  #drzac #centriraj_sadrzaj .touch {
+    height: 100px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  #drzac #centriraj_sadrzaj #dva_diva {
+    height: 600px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #drzac #centriraj_sadrzaj #dva_diva .dva {
+    height: 49%;
+    width: 100%;
+    margin-top: 1%;
+  }
+  #drzac #centriraj_sadrzaj #email_forma button {
+    margin-right: 27%;
+  }
+  #drzac #centriraj_sadrzaj #proizvodi {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #drzac #centriraj_sadrzaj #proizvodi .proiz {
+    width: 35%;
+  }
+  #drzac #centriraj_sadrzaj #pitanja_odgovori .drzac_odgovora {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  #header_menu header #header_popust {
+    display: none;
+  }
+  #drzac #centriraj_sadrzaj #email_forma button {
+    margin-right: 26%;
+  }
+  #drzac #centriraj_sadrzaj #contact_form #forma_drzac {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  #drzac #centriraj_sadrzaj #title_content #text_title {
+    width: 50%;
+  }
+  #drzac #centriraj_sadrzaj #products {
+    height: 700px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  #drzac #centriraj_sadrzaj #products .product {
+    width: 26%;
+    height: 47%;
+  }
+  #drzac #centriraj_sadrzaj #email_forma {
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #drzac #centriraj_sadrzaj #contact_form #forma_drzac {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #header_menu nav ul {
+    width: 50%;
+  }
+  #drzac #centriraj_sadrzaj #dva_diva .dva .info h3 {
+    font-size: 26px;
+  }
+  #drzac #centriraj_sadrzaj #title_best {
+    height: 75px;
+  }
+  #drzac #centriraj_sadrzaj #proizvodi .proiz {
+    width: 39%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #drzac #centriraj_sadrzaj #products {
+    height: 700px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  #drzac #centriraj_sadrzaj #products .product {
+    width: 32%;
+  }
+  #drzac #centriraj_sadrzaj #email_forma #mail {
+    width: 60%;
+  }
+  #drzac #centriraj_sadrzaj #proizvodi .proiz {
+    width: 45%;
+  }
+  #drzac #centriraj_sadrzaj .touch {
+    height: 70px;
+  }
+  #drzac #centriraj_sadrzaj .touch h1 {
+    font-size: 36px;
+  }
+  #drzac #centriraj_sadrzaj #pitanja_odgovori .drzac_odgovora {
+    width: 80%;
+  }
+  #drzac #centriraj_sadrzaj #pitanja_odgovori {
+    padding-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  #header_menu nav ul {
+    width: 60%;
+  }
+  #drzac #centriraj_sadrzaj #products {
+    height: 1250px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    padding: 0px;
+  }
+  #drzac #centriraj_sadrzaj #products .product {
+    width: 42%;
+    height: 25%;
+    margin-top: 20px;
+  }
+  #drzac footer #futer_info {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #drzac footer #futer_info .info_fut {
+    width: 40%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  #drzac #centriraj_sadrzaj #proizvodi .proiz {
+    width: 48%;
+  }
+  #drzac #centriraj_sadrzaj #proizvodi .proiz .poriz_img {
+    height: 300px;
+  }
+  #drzac #centriraj_sadrzaj #pitanja_odgovori .drzac_odgovora .pitanje_odg .odgovor {
+    padding-top: 35px;
+    padding-bottom: 15px;
+  }
+  #drzac #centriraj_sadrzaj #contact_form #forma_drzac #gore {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #drzac #centriraj_sadrzaj #contact_form #forma_drzac #gore .input_forma {
+    width: 100%;
+  }
+  #drzac #centriraj_sadrzaj #contact_form {
+    height: 900px;
+  }
+  #drzac #centriraj_sadrzaj #contact_form #ispod_forme {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #drzac #centriraj_sadrzaj #contact_form #ispod_forme button {
+    width: 47%;
+  }
+  #drzac #centriraj_sadrzaj #contact_form #ispod_forme label {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #header_menu nav ul {
+    width: 75%;
+  }
+  #drzac #centriraj_sadrzaj #title_content #text_title {
+    width: 65%;
+  }
+  #drzac #centriraj_sadrzaj #email_forma p {
+    font-size: 14px;
+  }
+  #drzac #centriraj_sadrzaj #pitanja_odgovori .drzac_odgovora {
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #header_menu nav ul {
+    width: 70%;
+  }
+  #drzac #centriraj_sadrzaj #title_content #text_title a {
+    width: 35%;
+  }
+  #drzac #centriraj_sadrzaj #title_content #text_title h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+  #drzac #centriraj_sadrzaj #email_forma button {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #drzac #centriraj_sadrzaj #proizvodi .proiz {
+    width: 75%;
+  }
+  #drzac #centriraj_sadrzaj #proizvodi .proiz .poriz_img {
+    height: 350px;
+  }
+  #drzac #centriraj_sadrzaj .touch h1 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  #drzac #centriraj_sadrzaj #products {
+    height: 1900px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0px;
+  }
+  #drzac #centriraj_sadrzaj #products .product {
+    width: 70%;
+    height: 17%;
+    margin-top: 20px;
+  }
+  #drzac footer #futer_info .info_fut {
+    width: 55%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  #drzac #centriraj_sadrzaj #proizvodi .proiz {
+    width: 75%;
+    margin-top: 20px;
+  }
+  #drzac #centriraj_sadrzaj #proizvodi .proiz .poriz_img {
+    height: 320px;
+  }
+  #drzac #centriraj_sadrzaj #pitanja_odgovori .drzac_odgovora {
+    margin-top: 20px;
+  }
+  #drzac #centriraj_sadrzaj #contact_form #forma_drzac {
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #header_menu nav ul {
+    width: 80%;
+  }
+  #drzac #centriraj_sadrzaj #dva_diva .dva .info h3 {
+    font-size: 24px;
+  }
+  #drzac #centriraj_sadrzaj #products .product {
+    width: 80%;
+    height: 17%;
+  }
+  #drzac #centriraj_sadrzaj #proizvodi .proiz {
+    width: 80%;
+    margin-top: 20px;
+  }
+  #drzac #centriraj_sadrzaj .touch h1 {
+    font-size: 26px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
